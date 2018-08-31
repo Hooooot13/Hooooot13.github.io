@@ -1,0 +1,23 @@
+.logo_header{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #f9f9f9;
+}
+
+p {
+  font-size: auto;
+  font-family: sans-serif;
+  word-wrap: break-word;
+
+}
+
+.center_column {
+  white-space: normal;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
