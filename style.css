@@ -91,25 +91,25 @@ a {
   background-color: #006699;
 }
 .palette:nth-child(2){
-  background-color: #009FDA;
+  background-color: #008542;
 }
 .palette:nth-child(3){
-  background-color: #CC0033;
+  background-color: #E37222;
 }
 .palette:nth-child(4){
-  background-color: #E37222;
+  background-color: #CC0033;
 }
 .palette:nth-child(5){
   background-color: #6B1F73;
 }
 .palette:nth-child(6){
-  background-color: #008542;
+  background-color: #006699;
 }
 .palette:nth-child(7){
-  background-color: #66CC33;
+  background-color: #008542;
 }
 .palette:nth-child(8){
-  background-color: #006699;
+  background-color: #CC0033;
 }
 
 .banner {
@@ -232,6 +232,7 @@ a {
     border-radius: 5px;
     border: 3px solid white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,0.24);
+    background-color: white;
 }
 
 /* atomic css hacks */
@@ -284,6 +285,7 @@ a {
     .post img,
     .post .content {
         float: none;
+        background-color: white;
     }
     .post {
         width: 85%;
@@ -313,5 +315,6 @@ a {
     }
     .post img {
         max-width: none;
+        background-color: white;
     }
 }
