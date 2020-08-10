@@ -1,0 +1,115 @@
+Levi Carroll
+
+Contact information
+
+LDCARROLL42@gmail.com
+(209) 910 - 5384
+1501 Old Monrovia RD
+Huntsville AL, 35806
+
+EDUCATION
+
+School: Tennessee Technological University
+City:  Cookeville, TN
+Degree: Bachelor of Science in Electrical Engineering
+Dates: August 2014 – May 2020
+GPA: 3.09
+
+notes:
+
+- IEEE Robotics Team Leader
+- IEEE Officer
+- Students for the Exploration and Development of Space (SEDS)
+Rocketry Team
+- Dean’s List
+
+EXPERIENCE
+
+Company: IEEE Robotics Team
+Position: Team Leader
+City:  Cookeville, TN
+Start Date: Aug 2019
+End Date: May 2020
+Notes:
+
+- Designed and built a functioning robotic prototype for IEEE Southeastern conference (SECon)
+- Gained practical experience in robotics systems design
+- Built practical management skills including time management, and
+financial management
+
+
+Company: Center for Energy Systems Research
+Position: Undergraduate Researcher
+City:  Cookeville, TN
+Start Date: Oct 2019
+End Date: May 2020
+Notes:
+
+- Designed and built tools to help test long-range capacitive wireless
+power transfer systems
+- Studied and analyzed capacitive wire power transfer systems
+- Participated in ‘in the field’ tests of high voltage long-range wireless
+power transfer systems
+
+
+Company: Industrial Assessment Center
+Position: Undergraduate Assessor
+City:  Cookeville, TN
+Start Date: May 2018
+End Date: May 2020
+Notes:
+
+- Conducted cost-free, on sight, energy efficiency assessments.
+- Assessed facilities including a two-cycle power plant, as well as Nissan
+and Bridgestone manufacturing facilities.
+- Authored report sections concerning power factor correction, facility
+lighting, compressed air management, etc.
+
+Company: American Cast Iron Piping Company
+Position: Full-Time Intern
+City: Birmingham, AL
+Start Date: May 2019
+End Date: August 2019
+Notes:
+
+- Saved the facility conservatively $250,000 in process improvements
+- Programmed PLC controls and Siemens HMI panels
+- Fixed problems in machinery and control systems
+- Collected and analyze data on complex systems
+
+Company:
+Position:
+City:
+Start Date:
+End Date:
+Notes:
+
+TECHNICAL SKILLS
+
+C/C++, GNU/Unix, MATLAB, Linux, Python, Circuit Design, HTML/CSS, VLSI Design, Assembly, Arduino, LaTeX, LTspice, Ladder Logic, PLC Prog., R/Rstudio, Raspberry Pi, Bash, ROS Arch, Linux ,Hardware Design, Git, 3D Modeling/Fabrication
+
+PERSONAL SKILLS
+
+Flexible, Responsible, Fast Learner, Self Motivated, Excellent Personal and Professional Communicator
+
+REFERENCES
+
+Charles Lynn Carnal Ph.D. PE
+Professor of Electrical Engineering
+CharlesLC@tntech.edu
+(931) 260-6265
+
+Glenn Cunningham Ph.D.
+Professor of Mechanical Engineering / Assessment Supervisor
+gcunningham@tntech.edu
+(931) 372-3826
+
+Jonny Holloman
+Engineering Supervisor
+jholloman@american-usa.com
+(205) 281-1997
+
+Charles Van Nest Ph.D.
+Professor of Electrical Engineering / Research Supervisor
+cvanneste@tntech.edu
+(931) 252-2000
