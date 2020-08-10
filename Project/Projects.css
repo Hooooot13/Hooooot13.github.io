@@ -1,8 +1,51 @@
+:root {
+  --Background-Color: grey;
+}
+
 html {
-  
+  background-color: black;
+  padding: 0px 0px 0px 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-color);
+  font-family: "Arial", serif;
+  font-size: 1.6rem;
+  color: var(--default-text-color);
+  margin: 0;
+  padding: 0;
 }
 
 H1 {
   text-align: center;
   font-size: 40px;
+}
+
+.Project-Type {
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--Background-Color);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.Picture {
+  Float: right;
+  padding: 10px 10px 10px 10px;
+  width: 45%;
+}
+
+.Picture img {
+  width: 100%;
+}
+
+.Description {
+  float: left;
+  padding: 10px 10px 10px 10px;
+  min-height: 85%;
+  width: 50%;
 }
