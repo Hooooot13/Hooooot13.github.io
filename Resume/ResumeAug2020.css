@@ -81,6 +81,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 90px;
 }
 
 .Header .Title-Card {
@@ -91,8 +92,8 @@ ul {
   top: 70px;
   background-color: var(--card-background-color);
   box-shadow: 0px 4px 8px 0px var(--shadow-color);
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
   margin-top: 0px;
   border-radius: 10px;
@@ -114,6 +115,7 @@ ul {
 }
 
 .title-card-text p {
+  position: relative;
   vertical-align: middle;
   align-items: center;
   justify-content: center;
@@ -122,8 +124,9 @@ ul {
 .Header .Title-Card-Picture {
   margin: auto;
   max-height: 35%;
-  width: 55%;
+  max-width: 55%;
   vertical-align: middle;
+  padding: 10px 10px 10px 10px;
 }
 
 .Title-Card-Picture img {
@@ -138,15 +141,12 @@ ul {
 
 .Section-Heading {
   background-color: var(--card-background-color);
-  padding: 10px 0px 10px 0px;
-  width: 100%;
-  top: 10%;
+  padding: 10px 0px 20px 0px;
   width: 100%;
   height: 10%;
 }
 
 .Section-Heading h1 {
-  position: relative;
   text-align: center;
 }
 
@@ -171,7 +171,6 @@ ul {
 }
 
 .Experience .Company {
-  position: relative;
   margin: auto;
   width: 900px;
   max-width: 85%;
@@ -189,49 +188,59 @@ ul {
 
 .Experience .IEEE-RobotTeam {
   background-image: url(IEEE-Robot-Background.jpg);
-  height: 100%;
+  min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px;
+  padding-top: 50px;
+  padding-Bottom: 50px;
+
 }
 
 .Experience .ESR {
   background-image: url(ESR-Background-Image.jpg);
-  height: 100%;
+  min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px;
+  padding-top: 50px;
+  padding-Bottom: 50px;
+
 }
 
 .Experience .IAC {
   background-image: url(IAC-Background-Image.JPG);
-  height: 100%;
+  min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px;
+  padding-top: 50px;
+  padding-Bottom: 50px;
+
 }
 
 .Experience .American {
   background-image: url(American-Background-Image.jpg);
-  height: 100%;
+  min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 50px;
+  padding-Bottom: 50px;
 }
 
 .Experience .Company h3{
-  color: black;
 }
 
 .Technical-Skills {
@@ -268,7 +277,6 @@ ul {
   margin: auto;
   float: left;
   width: 33%;
-  transform: translate(-2%);
 }
 
 .Technical-Skills li {
