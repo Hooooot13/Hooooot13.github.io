@@ -27,6 +27,10 @@ div {
   padding: 0px 0px 0px 0px;
 }
 
+ul {
+  padding: 0;
+}
+
 .Header {
   background-image: url(HeaderBackground.jpg);
   min-height: 100%;
