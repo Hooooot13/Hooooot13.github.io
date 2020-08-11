@@ -1,0 +1,146 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Blog/Blog.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="Header">
+      <div class="dropdown">
+      <span>Menu</span>
+      <div class="dropdown-content">
+        <p><a href="index.html" target="_blank"> Porfolio </a></p>
+        <p><a href="ComingSoon.html" target="_blank"> Blog </a></p>
+        <p> Contact Me </p>
+      </div>
+    </div>
+  </div>
+<!--
+
+  <div class="Card"> <a class="Hidden-Link" href="ComingSoon.html" target="_blank">
+        <h1> Title </h1>
+        <h3>Sub Title</h3>
+        <div class="flex-container">
+          <div class="flex-child">
+            <p>
+              Text
+            </p>
+          </div>
+          <div class="flex-child">
+            <img src="Project/Projects-Templet-Picture.jpg">
+          </div>
+      </div>
+    </a>
+  </div>
+
+-->
+
+  <div class="Card">
+    <h1> How High Can Spider Man Jump? </h1>
+    <h3> Why even bother with the webs </h3>
+    <div>
+      <p>
+        Everyone knows Sony’s favorite superhero, your friendly neighborhood web-slinger SPIDER-MAN. In 1962 Peter Parker was bitten by a radioactive spider and instead of getting cancer, he got amazing spider powers. You know most of them, web-slinging for some Tarzan action, the ability to see slightly into the future, some sick flips, and also super strength. The various versions of spider man have varying amounts of super-strength but a lot of sources suggest the lower bounds of his power is the ability to lift 170 times his own weight, I call this the spider coefficient (CF). The questions are <em> <b> since spider-man has super strength how high can he jump? </b> </em> and <em> <b> Does he need the webs to get around? </b> </em> Those are some hard-hitting questions so let’s get to it.
+      </p>
+    </div>
+    <div class="flex-container">
+      <div class="flex-child">
+        <img src="Blog/Spider-man/Spider-Man-Jumping.jpg">
+      </div>
+      <div class="flex-child">
+        <P>
+           &emsp; Knowing how high you will go if you jump straight up is actually a pretty simple calculation. It’s given by this equation:
+        </p>
+          <math>
+          V<sup>2</sup><sub>initial</sub> - V<sup>2</sup><sub>final</sub> = 2ad
+          </math>
+          <p>
+          Which in plain English says that any change in velocity is equal to two times a constant acceleration multiplied by the distance traveled. That means that if you are moving straight up then the change in velocity will be slowing to a stop in the air after you jump and the acceleration will be the acceleration due to gravity which more or less constant. Then you can rearrange this equation into something like this:
+          </p>
+          <math> d = V<sup>2</sup><sub>initial</sub> - V<sup>2</sup><sub>final</sub> &divide; 2a </math> <br>
+
+          <math> d &rarr; The distance you will travel in the air </math> <br>
+
+          <math> V<sup>2</sup><sub>final</sub> &rarr; velocity at the top of the arc which is just zero </math> <br>
+
+          <math> V<sup>2</sup><sub>initial</sub> &rarr; velocity when Spidey leaves the ground </math> <br>
+
+          <math> a &rarr; is the acceleration due to gravity (9.81m/s<sup>2</sup>) </math>
+      </div>
+        </div>
+        <div>
+          <p>
+            Okay, now that we know how we are going to find Peters maximum jump height we have to find everything that we don't already know, which fortunatly is just one of our terms, the Spiders initial velocity. Finding that is going to involve a few steps but since our calculations are going to be determined how stong he is we obviouslt need to know how stong he really is.
+          </p>
+            <p>
+            Since Spideys’ strength is determined by his weight so the first thing we need to do is find out how much he weighs. Not surprisingly the spider fandom is an excellent resource on the exact physical properties of each and every spider-man in the comics, but I’m not using any of that cause I didn’t read any of those. In 2002 when the first of Tobey Maquire’s Spider(s)-Man movies was released I was six years old and that means Tobey Maquire is <b>MY</b> Spider-man and Tobey was 155 lb in that movie so that’s the weight well use. We’ll call this unit a <em>Toby</em>.
+          </p>
+          <math>
+            1 Toby = 155 LB or Toby &asymp; 70 Kg
+          </math>
+          <p>
+            Next, we need to figure out what that translates to as far as lifting capacity. For that, we’ll use the spider coefficient from before. That will tell us the minimum weight the Tobey Maquire spider can lift, hence forth known as a <em> Tobey Lift </em>.
+          </p>
+          <math>
+            1 Toby Lift = 1 Tobey &times; Spider coefficient = 26350 LB = 11910 Kg
+          </math>
+        </div>
+        <div class="flex-container">
+          <div class="flex-child">
+            <P>
+              <p> That’s a lot of weight but what we really care about is how much force he can generate with his legs. For that, we will use the most fundamental physics equation: </p>
+
+            <math> Force = Mass &times; Acceleration </math>
+
+            <p?Already we know what the mass in this equation is. It’s just Spideys body weight plus the weight he can lift.</p>
+
+            <math> Mass = 1 Tobey + 1 Tobey Lift = 26,505 LB = 11,980 Kg </math>
+
+            <p>What we don’t know is the acceleration he is under while he is lifting the weight. For that, we will use the following equation.</p>
+
+            <math> A = &#8710;V &divide; t   = 2&#8710;d &divide; t<sup>2</sup> <br>
+            <math> d &rarr; The length of Peters squat </math> <br>
+            <math> t &rarr; The time it takes him to squat</math> <br>
+
+            <p>
+              Tobey Maguire is only a little shorter than me so for the squat distance well use my squat distance just about eighteen inchs and my squat time to about half a second. Remember the squat time is th eabout of time it takes to squat when you are lifting your heaviest possible weight, not the amount it takes to squat without weights. Knowing that we get the folling:
+            </p>
+          </div>
+          <div class="flex-child">
+            <img src="Blog/Spider-man/Spider-Man-Lifting-weights.jpg">
+          </div>
+        </div>
+        <div>
+          <math> d = 18 in &asymp; 0.4572 m </math> <br>
+          <math> t = 05. seconds </math> <br>
+          <math> A = &#8710;V &divide; t = 2&#8710;d &divide; t<sup>2</sup> 2 &times; 0.4572 &divide; 0.5<sup>2</sup> = 3.6578 <sup>m</sup>/<sub>s<sup>2</sup></sub></math> <br>
+          <p>
+            Now all we do is plug this into the for equations, and from now onwe'll call the maximum amount of force that Spidey can produce a <em> Toby Strength </em>
+          </p>
+          <math> 1 Tobey Strength =  11,980 Kg &times; 3.6578 <sup>m</sup>/<sub>s<sup>2</sup></sub> = 43,563<sup>Kg&times;m</sup>/<sub>s<sup>2</sup></sub></math>
+          <p> For reference that is roughly the amount force a wall would experience if you ran a pickup truck into going 35mph. You might think that a building would just be crushed if Spider-Man would try to jump off it but Spider-Man weighs way less than a building so it probably wouldn’t be all that destructive. Although I bet he has put his foot through a few roofs.</p>
+          <p> Next we need to know the acceleration with which he can jump which is east to find all you do is rearrange the force equation to isolate acceleration when he isn’t holding a weight. Since he isn’t holding a weight is mass is only one <em> Tobey </em>. We are assuming that one <em> Tobey Strength </em> is the most force he can produce, and we’ll get this formula:</p>
+          <math> A = 1 Tobey Strength &divide; 1 Tobey</math> = <math> 43,563 &divide; 70 = 281 <sup>m</sup>/<sub>s<sup>2</sup></sub> </math>
+          <p> Then, finally we can find the velocity that Peter will have when he leaves the ground given by this formula:</p>
+          <math> V = A &times; T = A </math>
+          <p> Spider-Man can’t fly and therefore cannot accelerate after his feet leave the ground we need to know how long it takes him to jump. If we know how long he accelerates for then we will know how fast he’s going when he leaves the ground and hence how high he will go. The time it takes him to jump is given by the below equation: </p>
+
+          <math> T = &#8730; (d<sub>squat></sub> / A) </math> = <math> 0.0570 seconds </math>
+          <p> Then, finally we can find the velocity that Peter will have when he leaves the ground given by this formula:</p>
+          <math> V = A &times; T = 281 <sup>m</sup>/<sub>s<sup>2</sup></sub> &times;  0.0570 s </math> = <math> 16.03 <sup>m</sup>/<sub>s</sub> </math>
+          <p> And now it’s the moment you’ve all been waiting for. How high can spider man jump? For that, we return the first equation we discussed and just plug in our new numbers </p>
+
+          <math> d = V<sup>2</sup><sub>initial</sub> - V<sup>2</sup><sub>final</sub> &divide; 2a = 16.03<sup>2</sup> <sup>m<sup>2</sup> </sup>/<sub>s<sup>2</sup></sub> &divide; 2 &times 9.31 <sup>m</sup>/<sub>s<sup>2</sup></sub> = 13.1 m </math> <br>
+          <p> That is very high for a human but With that sort of jump Spidey won’t be leaping tall buildings anytime soon, but maybe small building. In summary, he will definitely still need those webs though. <p>
+        </div>
+        <div>
+          <h3> Extra notes </h3>
+          <ul>
+            <li> The reason spiders can lift so much in proportion to their weight is that they have exoskeletons and because they are really tiny. </li>
+            <li> According to <a href="https://spiderman.fandom.com/wiki/Spider_Powers"> spiderman.fandom.com</a>, some versions of the comics say that he was bitten by a normal spider and then the god of all spiders just arbitrarily game his powers, but all the powers are the same. </li>
+          </ul>
+        </div>
+    </div>
+  </body>
+</html>

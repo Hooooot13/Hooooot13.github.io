@@ -1,8 +1,165 @@
-html {
-
+:root {
+  --background-color: #000000;
+  --card-background-color: #eeeeee;
+  --default-text-color: #222831;
+  --shadow-color: #222831;
 }
 
-H1 {
+.dropdown {
+  position: absolute;
+  right: 20px;
+  display: inline-block;
+  background-color: var(--card-background-color);
+  box-shadow: 0px 4px 8px 0px var(--shadow-color);
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+  body {
+    background-image: url(blog-Background.jpg);
+    min-height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 90px;
+    background-color: var(--background-color);
+    font-family: "Arial", serif;
+    color: var(--default-text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content {
+  background-color: var(--card-background-color);
+  display: none;
   text-align: center;
-  font-size: 40px;
+  position: absolute;
+  right: 0px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px var(--shadow-color);
+  padding: 12px 16px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.dropdown-content a:link {
+  text-decoration: none;
+  color: var(--default-text-color);
+}
+
+.dropdown-content a:visited {
+  text-decoration: none;
+  color: var(--default-text-color);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.Header {
+  padding: 10px 0px 70px 0px;
+}
+.card p {
+  text-align: left;
+}
+math {
+}
+
+li {
+  padding-bottom: 10px;
+}
+.Card {
+  margin: auto;
+  width: 800px;
+  min-height: 500px;
+  max-width: 85%;
+  top: 70px;
+  background-color: var(--card-background-color);
+  box-shadow: 0px 4px 8px 0px var(--shadow-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Hidden-Link:link {
+  text-decoration: none;
+  color: var(--default-text-color);
+}
+
+.Hidden-Link:visited {
+  text-decoration: none;
+  color: var(--default-text-color);
+}
+
+.flex-container {
+  display: flex;
+  min-height: 400px;
+}
+
+.flex-child {
+  position: relative;
+  flex: 1;
+  vertical-align: middle;
+}
+
+.flex-child:first-child p {
+  top: 45px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .flex-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-child {
+  }
+
+  img {
+      max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+
+  .flex-child:first-child {
+      margin-right: 0px;
+  }
 }
