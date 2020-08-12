@@ -17,7 +17,7 @@
 }
 
   body {
-    background-image: url(blog-Background.jpg);
+    background-image: url(Blog-Background.jpg);
     min-height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
