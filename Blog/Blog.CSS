@@ -16,10 +16,12 @@
   border-radius: 10px;
 }
 ol {
-  margin: 0;
+  margin-left: 0;
+  padding-left: 13px;
 }
 li {
-  margin: 0;
+  margin-left: 0;
+  text-align: left;
 }
   body {
     background-image: url(Blog-Background.jpg);
