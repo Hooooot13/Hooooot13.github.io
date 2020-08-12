@@ -15,7 +15,12 @@
   margin-top: 10px;
   border-radius: 10px;
 }
-
+ol {
+  margin: 0;
+}
+li {
+  margin: 0;
+}
   body {
     background-image: url(Blog-Background.jpg);
     min-height: 100%;
