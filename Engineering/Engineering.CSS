@@ -24,7 +24,7 @@ li {
   text-align: left;
 }
   body {
-    background-image: url(Projects-Background.jpg);
+    background-image: url(Blog-Background.jpg);
     min-height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -140,13 +140,6 @@ img {
 
 .flex-child:first-child {
     margin-right: 20px;
-}
-
-.Contact {
-  width: 100%;
-  padding: 30px;
-  background-color: white;
-  text-align: center;
 }
 
 @media screen and (max-width: 900px) {

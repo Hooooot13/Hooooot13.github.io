@@ -15,14 +15,7 @@
   margin-top: 10px;
   border-radius: 10px;
 }
-ol {
-  margin-left: 0;
-  padding-left: 13px;
-}
-li {
-  margin-left: 0;
-  text-align: left;
-}
+
   body {
     background-image: url(Projects-Background.jpg);
     min-height: 100%;
@@ -70,15 +63,7 @@ li {
 .Header {
   padding: 10px 0px 70px 0px;
 }
-.card p {
-  text-align: left;
-}
-math {
-}
 
-li {
-  padding-bottom: 10px;
-}
 .Card {
   margin: auto;
   width: 800px;
@@ -140,13 +125,6 @@ img {
 
 .flex-child:first-child {
     margin-right: 20px;
-}
-
-.Contact {
-  width: 100%;
-  padding: 30px;
-  background-color: white;
-  text-align: center;
 }
 
 @media screen and (max-width: 900px) {

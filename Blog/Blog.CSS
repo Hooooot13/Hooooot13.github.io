@@ -142,6 +142,13 @@ img {
     margin-right: 20px;
 }
 
+.Contact {
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   .flex-container {
     display: flex;
