@@ -3,7 +3,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Blog/Blog.CSS">
     <meta charset="utf-8">
-    <title></title>
+    <title>How High Can Spider Man Jump?</title>
+    <script src="Blog/Spider-Man/SpiderMan.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
   </head>
   <body>
     <div class="Header">
@@ -71,21 +76,19 @@
         <P>
            Knowing how high you will go if you jump straight up is a pretty simple calculation. It’s given by this equation:
         </p>
-          <math>
-          V<sup>2</sup><sub>initial</sub> - V<sup>2</sup><sub>final</sub> = 2ad
-          </math>
+          \[V^{2}_{Initial} - V^{2}_{Initial} = 2ad\]
           <p>
           Which in plain English says that any change in velocity is equal to two times a constant acceleration multiplied by the distance traveled. That means that if you are moving straight up then the change in velocity will be slowing to a stop in the air after you jump and the acceleration will be the acceleration due to gravity which is more or less constant. Then you can rearrange this equation into something like this:
           </p>
-          <math> d = V<sup>2</sup><sub>initial</sub> - V<sup>2</sup><sub>final</sub> &divide; 2a </math> <br> <br>
+          \[Jump\ Height = \frac{V^{2}_{Initial} - V^{2}_{Initial}}{2a} \]
 
-          <math> d &rarr; The distance you will travel in the air </math> <br> <br>
+          \[d &rarr; The\ distance\ you\ will\ travel\ in\ the\ air \]
 
-          <math> V<sup>2</sup><sub>final</sub> &rarr; velocity at the top of the arc which is just zero </math> <br> <br>
+          \[V^{2}_{Final} &rarr; velocity\ at\ the\ top\ of\ the\ arc\ which\ is\ just\ zero\]
 
-          <math> V<sup>2</sup><sub>initial</sub> &rarr; velocity when Spidey leaves the ground </math> <br> <br>
+          \[V^{2}_{Initial} &rarr; velocity\ when\ Spidey\ leaves\ the\ ground \]
 
-          <math> a &rarr; is the acceleration due to gravity (9.81m/s<sup>2</sup>) </math>
+          \[ a &rarr; is\ the\ acceleration\ due\ to\ gravity\ (9.81\frac{meters}{second^{2}})\]
       </div>
         </div>
         <div>
@@ -95,32 +98,47 @@
             <p>
             Since Spideys’ strength is determined by his weight the first thing we need to do is find out how much he weighs. Not surprisingly the spider fandom is an excellent resource on the exact physical properties of each and every spider-man in the comics, but I’m not using any of that cause I didn’t read any of those. In 2002 when the first of Tobey Maquire’s Spider(s)-Man movies was released I was six years old and that means Tobey Maquire is <b>MY</b> Spider-man and Tobey was 155 lb in that movie so that’s the weight well use. We’ll call this unit a <em>Tobey</em>.
           </p>
-          <math>
-            1 Tobey = 155 LB or 1 Tobey &asymp; 70 Kg
-          </math>
+          \[\begin{array}{rcl}
+          1\ Tobey & = & 155\ LB \\
+           & \cong  & 70\ Kg \\
+          \end{array}\]
+
           <p>
             Next, we need to figure out what that translates to as far as lifting capacity. For that, we’ll use the spider coefficient from before. That will tell us the minimum weight the Tobey Maquire spider can lift, henceforth known as a <em>Tobey Lift</em>.
           </p>
-          <math>
-            1 Tobey Lift = 1 Tobey &times; Spider coefficient = 26350 LB = 11910 Kg
-          </math>
+          \[\begin{array}{rcl}
+1\ Tobey\ Lift & = & 1\ Tobey × Spider\ Coefficien \\
+ & = &26350\ LB \\
+& = & 11910\ Kg
+\end{array}\]
+
+
         </div>
         <div class="flex-container">
           <div class="flex-child">
             <P>
               <p> That’s a lot of weight but what we really care about is how much force he can generate with his legs. For that, we will use the most fundamental physics equation: </p>
 
-            <math> Force = Mass &times; Acceleration </math>
+            \[ Force = Mass &times; Acceleration \]
 
             <p>Already we know what the mass in this equation is. It’s just Spideys body weight plus the weight he can lift.</p>
 
-            <math> Mass = 1 Tobey + 1 Tobey Lift = 26,505 LB<br> = 11,980 Kg </math>
+            \[ \begin{array}{rcl}
+Mass & = & 1\ Tobey + 1\ Tobey\ Lift \\
+& = & 26,505\ LB \\
+& = & 11,980\ Kg
+\end{array}
+\]
 
             <p>What we don’t know is the acceleration he is under while he is lifting the weight. For that, we will use the following equation.</p>
 
-            <math> A = &#8710;V &divide; t   = 2&#8710;d &divide; t<sup>2</sup> <br> <br>
-            <math> d &rarr; The length of Peters squat </math> <br> <br>
-            <math> t &rarr; The time it takes him to squat</math> <br>
+            \[\begin{array}{rcl}
+            Acceleration &=& \frac{\Delta V}{time} \\
+            &=& \frac{2 \Delta distance}{time^{2}}
+            \end{array}
+             \]
+            \[ d &rarr; The\ length\ of\ Peters\ squat\]
+            \[t &rarr; The\ time\ it\ takes\ him\ to\ squat\]
           </div>
           <div class="flex-child">
             <img src="Blog/Spider-man/Spider-Man-Lifting-weights.jpg">
@@ -132,41 +150,69 @@
             For the next part, I am going to make a few assumptions that are not necessarily the case but will make the rest of this really easy. One, we are going to assume that since Tobey Maguire is only a little shorter than me he well squat the same amount that I do when I am lifting weights, about eighteen inches. Two, we’ll make a bigger assumption and say that everyone regardless of their relative strength will take the same amount of time to stand from a squat if they are lifting the most weight they possibly can, for me that is about 0.5 seconds so that is the squatting time we’ll use. Remember the squat time is the amount of time it takes to squat when you are lifting your heaviest possible weight, not the amount it takes to squat without weights. Knowing that we get the following:
           </p>
 
-          <math> d = 18 in &asymp; 0.4572 m </math> <br> <br>
-          <math> t = 0.5 seconds </math> <br> <br>
-          <math> A<sub>Lift</sub> = &#8710;V &divide; t = 2&#8710;d &divide; t<sup>2</sup> = 2 &times; 0.4572 &divide; 0.5<sup>2</sup> = 3.6578 <sup>m</sup>/<sub>s<sup>2</sup></sub></math> <br>
+          \[ d = 18\ inches &asymp; 0.4572\ meters \]
+          \[ t = 0.5\ seconds \]
+          \[\begin{array}{rcl}
+          Acceleration_{Lift} & = & \frac{\Delta V}{time} \\
+          & = & \frac{2 \ Delta V}{time^{2}} \\
+          & = & \frac{0.4572}{0.5^{2}} \frac{meters}{Second^{2}}
+          \end{array}
+           \]
+
           <p>
             In the above equation, Spider-Man is accelerating upward away from the earth but the earth is still pulling down on him so to show that he is accelerating away from the earth we need to subtract the downward acceleration the earth is applying to him from the acceleration above giving us this acceleration:
           </p>
 
-          <math>
-            A<sub>Lift</sub> = Acceleration away from the ground - Acceleration of the earth <br> <br>
+            \[Acceleration_{Lift} = Acceleration\ away\ from\ the\ ground - Acceleration\ of\ the\ earth \]
 
-            A = 3.6578 <sup>m</sup>/<sub>s<sup>2</sup></sub> - (-9.81<sup>m</sup>/<sub>s<sup>2</sup></sub>) = 13.4676 <sup>m</sup>/<sub>s<sup>2</sup></sub>
-          </math>
+            \[\begin{array}{rcl}
+            Acceleration_{Lift} & = & 3.6578 \frac{meters}{second^{2}}
+            -(-9.81 \frac{meters}{second^{2}}) \\
+            & = & 13.4676 \frac{meters}{second^{2}}
+            \end{array}
+             \]
 
           <p>
             Now all we do is plug this into the force equation, and from now on we’ll call the maximum amount of force that Spidey can produce a <em>Tobey Strength</em>.
           </p>
 
-          <math> 1 Tobey Strength =  11,980 Kg &times; 13.4676 <sup>m</sup>/<sub>s<sup>2</sup></sub> = 160,400<sup>Kg&times;m</sup>/<sub>s<sup>2</sup></sub></math>
+          \[\begin{array}{rcl}
+           1\ Tobey\ Strength & = &  11,980\ Kg &times; 13.4676 \frac{meters}{second^{2}} \\
+           & = & 160,400 \frac{Kg&times; meters}{second^{2}}
+           \end{array}\]
+
           <p> For reference that is roughly the amount of force, a wall would experience if you ran a pickup truck into it going 60mph. You might think that a building would just be crushed if Spider-Man tried to jump off it but Spider-Man weighs way less than a building so it probably wouldn’t be all that destructive. Although I bet he has put his foot through a few roofs.</p>
           <p>Next, we need to know the acceleration with which he can jump which is easy to find, all you do is rearrange the force equation to isolate acceleration when he isn’t holding a weight. Since he isn’t holding a weight his mass is only one <em>Tobey</em>. We are assuming that one <em>Tobey Strength</em> is the most force he can produce for any length of time, and we’ll get this formula:</p>
 
-          <math> A<sub>Jump</sub> = 1 Tobey Strength &divide; 1 Tobey</math> = <math> 160,400 <sup>Kg&times;m</sup>/<sub>s<sup>2</sup></sub> &divide; 70 Kg = 2289.5 <sup>m</sup>/<sub>s<sup>2</sup></sub> </math>
+          \[ \begin{array}{rcl}
+          A_{Jump} & = & \frac{1\ Tobey\ Strength}{1\ Tobey} \\
+          & = & \frac{160,400 \frac{Kg&times; meters}{second^{2}}}{70\ Kg} \\
+          & = & 2289.5 \frac{meters}{second^{2}}
+          \end{array}\]
 
           <p>For this new acceleration, we don’t need to control for gravity because we did that before and this new calculation is based on that. If we subtracted the acceleration due to gravity out of this we would be subtracting it twice. Also, remember that Spider-Man can’t fly and therefore cannot accelerate after his feet leave the ground we need to know how long it takes him to jump. If we know how long he accelerates for then we will know how fast he’s going when he leaves the ground and hence how high he will go. The time it takes him to jump is given by this equation: </p>
 
-          <math> T = &#8730; (d<sub>squat></sub> / A) </math> = <math> 0.020 seconds </math>
+          \[ \begin{array}{rcl}
+          Time & = & \frac{d_{squat}{A}) \\
+          & = & 0.020\ seconds
+          \end{array} \]
 
           <p> At long last we can find the velocity that Peter will have when he leaves the ground given by this formula:
           </p>
 
-          <math> V = A &times; T = 1034.9 <sup>m</sup>/<sub>s<sup>2</sup></sub> &times;  0.0297 s </math> = <math> 45.8 <sup>m</sup>/<sub>s</sub> </math>
+          \[ \begin{array}{rcl}
+          V & = & A &times; T \\
+          & = & 1034.9 \frac{meters}{second^{2}} &times;  0.0297 seconds \\
+          & = & 45.8 \frac{meters}{second}
+          \end{array} \]
 
           <p>And now it’s the moment you’ve all been waiting for. How high can spider man jump? For that, we return the first equation we discussed and just plug in our new numbers.</p>
 
-          <math> d = V<sup>2</sup><sub>initial</sub> - V<sup>2</sup><sub>final</sub> &divide; 2a = 30.7615<sup>2</sup> <sup>m<sup>2</sup></sup>/<sub>s<sup>2</sup></sub> &divide; 2 &times 9.81 <sup>m</sup>/<sub>s<sup>2</sup></sub> = 106.7 m </math> <br>
+          \[ \begin{array}{rcl}
+          Jump\ Height & = & \frac{V^{2}_{Initial} - V^{2}_{Initial}}{2a} \\
+          & = & \frac{30.7615^{2}\frac{meters^{2}}{second^{2}}}{2 &times 9.81 \frac{meters}{second^{2}}} \\
+          & = & 106.7 meters
+          \end{array} \]
 
           <p>For reference that is almost 32 stories high. Spider-Man works in New York and in most of the city the average building is only 10 stories tall. Spider-man does not by any means need those webs to get around the city, and I bet the city cleaning staff would prefer he stops leaving them around</p>
         </div>
@@ -178,7 +224,41 @@
             <li> According to <a href="https://spiderman.fandom.com/wiki/Spider_Powers"> spiderman.fandom.com</a>, some versions of the comics say that he was bitten by a normal spider and then the god of all spiders just arbitrarily game his powers, but all the powers are the same. </li>
           </ol>
         </div>
+        <!--
+        <div>
+              <h1> How high Can you jump? </h1>
+              <h3>Fill in the Blanks and find out how High you could jump in a perfect world</h3>
+              <div class="flex-container">
+                <div class="flex-child">
+                  <p>
+                    Name:<br> <br>
+                    Weight:<br> <br>
+                    Lift Coefficient:<br> <br>
+                    squat Distance:<br> <br>
+                    Squat Time: <br> <br>
+
+
+
+                  </p>
+                </div>
+                <div class="flex-child" style="text-align: center;">
+                  <input type="text" id="Name"/> <br> <br>
+                  <input type="number" id="Weight"/> Lb <br> <br>
+                  <input type="number" id="Lift-Coefficient"> <br> <br>
+                  <input type="number" id="Squat-Distance"> inches <br> <br>
+                  <input type="number" id="Squat-Time"> seconds <br> <br>
+                </div>
+
+
     </div>
+      <button type="button" onclick="Jump()"> what is math? </button>
+      <em><p id="Weight-Unit"></p></em>
+      <em><p id="Lift-Unit"></p></em>
+      <em><p id="Heavy-Acceleration"></p></em>
+
+    </div>
+-->
+  </div>
     <div class="Contact">
       <p> Please feel free to contact me at ldcarroll42@gmail.com </p>
     </div>

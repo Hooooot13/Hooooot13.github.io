@@ -138,6 +138,10 @@ img {
     border-radius: 15px;
 }
 
+input {
+  float: left;
+}
+
 .flex-child:first-child {
     margin-right: 20px;
 }
